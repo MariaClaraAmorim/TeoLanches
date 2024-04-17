@@ -34,7 +34,7 @@
             "name": "Franbresa",
             "description": "PÃO, FRANGO, CALABRESA, OVO, QUEIJO, PRESUNTO, MILHO, MOLHO ESPECIAL, BARBECUE, PASSAS, TOMATE E ALFACE",
             "price": 22.00,
-            "image": "https://images.unsplash.com/photo-1615719413546-198b25453f85?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYzMDQwMjkwNA&ixlib=rb-1.2.1&q=85"
+            "image": "../../../public/assets/img/Franbresa.jpeg"
         },
         {
             "name": "Franburguer",
