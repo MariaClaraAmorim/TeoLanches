@@ -31,19 +31,21 @@ const Menu = () => {
         setCartItems(updatedCartItems);
     };
 
-    const sendOrder = () => {
-        const orderMessage = cartItems.map(item => `${item.name} - R$ ${item.price}`).join('\n');
-        const whatsappLink = `https://wa.me/77999525284?text=${encodeURIComponent(orderMessage)}`;
-        window.open(whatsappLink, '_blank');
-    };
-
-    // Dentro do componente onde você está gerenciando o carrinho
     const [cartCount, setCartCount] = useState(0);
 
     // Função para calcular o número total de itens no carrinho
     const calculateCartCount = () => {
-        let totalCount = cartItems.length; // Aqui, contamos o tamanho do array de itens do carrinho
+        let totalCount = cartItems.length;
         setCartCount(totalCount);
+    };
+
+    // Função para calcular o preço total dos itens no carrinho
+    const calculateTotal = () => {
+        let total = 0;
+        cartItems.forEach(item => {
+            total += item.price;
+        });
+        return total.toFixed(2);
     };
 
     // Chame a função calculateCartCount sempre que o carrinho mudar
@@ -55,6 +57,14 @@ const Menu = () => {
         setActiveTab(tabName);
     };
 
+    const sendOrder = () => {
+        const total = calculateTotal();
+
+        const orderMessage = cartItems.map(item => `${item.name} - R$ ${item.price}`).join('\n') +
+            `\n\nTotal: R$ ${total}`;
+        const whatsappLink = `https://wa.me/77999525284?text=${encodeURIComponent(orderMessage)}`;
+        window.open(whatsappLink, '_blank');
+    };
     return (
         <div className="containerMenu">
             {showCart && (
@@ -74,7 +84,13 @@ const Menu = () => {
                         ))}
                     </ul>
                     {cartItems.length === 0 && <p>Carrinho vazio</p>}
-                    {cartItems.length > 0 && <button className="button" onClick={sendOrder}>Fazer Pedido</button>}
+                    {cartItems.length > 0 && (
+                        <div>
+                            <p>Total: R${calculateTotal()}</p>
+                            <p><strong>*SEM CONSIDERAR A TAXA DE ENTREGA</strong></p>
+                            <button className="button" onClick={sendOrder}>Fazer Pedido</button>
+                        </div>
+                    )}
                 </div>
             )}
 
