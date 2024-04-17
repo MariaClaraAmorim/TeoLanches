@@ -4,7 +4,7 @@
             "name": "X-Burguer",
             "description": "PÃO, HAMBÚRGUER, OVO, QUEIJO, PRESUNTO, MOLHO ESPECIAL, BARBECUE, TOMATE E ALFACE",
             "price": 18.00,
-            "image": "../../../public/assets/img/Franbresa.jpeg"
+            "image": "/assets/img/Logo.jpeg"
         },
         {
             "name": "X-Frango",
