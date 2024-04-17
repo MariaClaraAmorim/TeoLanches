@@ -56,7 +56,7 @@ const Menu = () => {
     };
 
     return (
-        <div>
+        <div className="containerMenu">
             {showCart && (
                 <div className="menu-sidebar">
                     <div className="head">

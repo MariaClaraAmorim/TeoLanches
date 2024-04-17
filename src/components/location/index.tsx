@@ -9,14 +9,14 @@ export default function Location() {
 
     return (
         <>
-
             <section>
                 <div className="cardLocation">
                     <p className="card-location">
                         <strong>
                             Contato:
                         </strong>
-                        {contact}</p>
+                        {contact}
+                    </p>
                     <p className="card-location">
                         <strong>
                             Funcionamento:
@@ -44,7 +44,6 @@ export default function Location() {
                     </div>
                 </div>
             </section>
-
         </>
     )
 }

@@ -10,7 +10,7 @@ export default function Card() {
 
 
     return (<>
-        <div className="page-wrapper">
+        <section className="page-wrapper">
             <div className="container">
                 <ul className="infographic-cards">
                     <li className="color-1">
@@ -32,6 +32,6 @@ export default function Card() {
                     </li>
                 </ul>
             </div>
-        </div>
+        </section>
     </>)
 }

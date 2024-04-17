@@ -17,7 +17,6 @@ function App() {
             <Menu />
             <Location />
             <Footer />
-
         </>
     );
 }
