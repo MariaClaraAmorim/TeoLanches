@@ -1,13 +1,13 @@
 import React from "react";
 import "./styles.css";
-
+import Logo from "../../../public/assets/img/Logo.jpeg";
 const Header: React.FC = () => {
     return (
         <>
             <header>
                 <nav>
                     <div className="logo-container">
-                        <img className="logo" src="public/img/Logo.jpeg" alt="Logo" />
+                        <img className="logo" src={Logo} alt="Logo" />
                     </div>
                     {/*    <div>
                         <div className="nav-container">

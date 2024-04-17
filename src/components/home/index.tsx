@@ -1,13 +1,14 @@
 import "./styles.css";
+import Video from "../../../public/assets/video/Hamburguer.mp4"
 
 export default function Home() {
     return (
         <>
-            <div className="video-container">
+            <section className="video-container">
                 <video autoPlay loop muted className="video">
-                    <source src="public/video/hamburguer.mp4" type="video/mp4" />
+                    <source src={Video} type="video/mp4" />
                 </video>
-            </div>
+            </section>
         </>
     );
 }
