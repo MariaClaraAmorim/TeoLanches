@@ -1,0 +1,28 @@
+.footer {
+    width: 100%;
+    text-align: center;
+    color: #f4f4f4;
+    background-color: #ed1c24;
+}
+
+.icons {
+    padding-top: 1rem;
+}
+
+.icons a {
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0.5rem;
+    color: #f4f4f4;
+}
+
+.company-name {
+    margin-top: 0.5rem;
+    font-size: 18px;
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 50%;
+    }
+}
