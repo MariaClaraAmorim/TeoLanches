@@ -61,7 +61,7 @@ const Menu = () => {
         const total = calculateTotal();
 
         const orderMessage = cartItems.map(item => `${item.name} - R$ ${item.price}`).join('\n') +
-            `\n\nTotal: R$ ${total}`;
+            `\n\nTotal sem taxa de entrega: R$ ${total}`;
         const whatsappLink = `https://wa.me/77999525284?text=${encodeURIComponent(orderMessage)}`;
         window.open(whatsappLink, '_blank');
     };
