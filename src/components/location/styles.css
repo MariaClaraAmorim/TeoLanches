@@ -1,4 +1,4 @@
-section {
+/* section {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -6,7 +6,7 @@ section {
   gap: 1rem;
   background: #f1f3f6;
 }
-
+ */
 .cardLocation {
   width: calc(60.33% - 20px);
   margin-bottom: 20px;
@@ -39,9 +39,6 @@ section {
   border-radius: 1.5rem;
 }
 
-.card-location {
-  color: #22215B;
-}
 
 .btn {
   font-size: 1rem;
