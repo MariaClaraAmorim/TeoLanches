@@ -1,3 +1,9 @@
+/* .containerMenu {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+} */
+
 .cards-container {
   text-align: center;
 }
@@ -198,6 +204,7 @@
 .menu-sidebar ul li {
   margin-bottom: 15px;
   color: black;
+  font-size: 22px;
 
 }
 
