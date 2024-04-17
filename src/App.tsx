@@ -1,5 +1,4 @@
 import Card from './components/Card';
-import SEO from './components/SEO';
 import Footer from './components/footer';
 import Header from './components/header';
 import Home from './components/home';
@@ -10,7 +9,6 @@ function App() {
 
     return (
         <>
-            <SEO title="Teo lanches" description="Onde a magia da hamburguer encontra a paixão pela qualidade." />
             <Header />
             <Home />
             <Card />
