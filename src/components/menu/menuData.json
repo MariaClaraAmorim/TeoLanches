@@ -4,7 +4,7 @@
             "name": "X-Burguer",
             "description": "PÃO, HAMBÚRGUER, OVO, QUEIJO, PRESUNTO, MOLHO ESPECIAL, BARBECUE, TOMATE E ALFACE",
             "price": 18.00,
-            "image": "/assets/img/Franbresa.jpeg"
+            "image": "/assets/img/Hamburguer.jpeg"
         },
         {
             "name": "X-Frango",
@@ -22,13 +22,13 @@
             "name": "X-Calabresa",
             "description": "PÃO, HAMBÚRGUER, CALABRESA, OVO, QUEIJO, PRESUNTO, MILHO, MOLHO ESPECIAL, BARBECUE, TOMATE E ALFACE",
             "price": 21.00,
-           "image": "/assets/img/Franbresa.jpeg"
+           "image": "/assets/img/Calabresa.jpeg"
         },
         {
             "name": "X-Bacon",
             "description": "PÃO, HAMBÚRGUER, BACON, OVO, QUEIJO, PRESUNTO, MILHO, MOLHO ESPECIAL, BARBECUE, TOMATE E ALFACE",
             "price": 23.00,
-           "image": "/assets/img/Franbresa.jpeg"
+           "image": "/assets/img/Bacon.jpeg"
         },
         {
             "name": "Franbresa",
@@ -48,7 +48,7 @@
             "name": "Calabacon",
             "description": "PÃO, HAMBÚRGUER, OVO, CALABRESA, BACON, QUEIJO, PRESUNTO, MILHO, MOLHO ESPECIAL, BARBECUE, CATUPIRY, TOMATE E ALFACE",
             "price": 25.00,
-           "image": "/assets/img/Franbresa.jpeg"
+           "image": "/assets/img/Calabacon.jpeg"
         },
         {
             "name": "X-Tudo",
@@ -60,7 +60,7 @@
             "name": "X-Brocado",
             "description": "PÃO, 1 HAMBÚRGUER (200G), FRANGO, BACON, OVO, QUEIJO, PRESUNTO, MILHO, MOLHO ESPECIAL, BARBECUE, CATUPIRY, PASSAS, TOMATE E ALFACE",
             "price": 42.00,
-           "image": "/assets/img/Franbresa.jpeg"
+           "image": "/assets/img/Combo.jpeg"
         },
         {
             "name": "X-Téo",
@@ -72,7 +72,7 @@
             "name": "Super bacon",
             "description": "PÃO, HAMBÚRGUER, 2x BACON, 2x OVO, QUEIJO, PRESUNTO, MILHO, MOLHO ESPECIAL, BARBECUE, CATUPIRY, BATATA PALHA, TOMATE E ALFACE",
             "price": 25.00,
-           "image": "/assets/img/Franbresa.jpeg"
+           "image": "/assets/img/Bacon.jpeg"
         }
     ],
     "additional": [
